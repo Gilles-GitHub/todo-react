@@ -1,4 +1,4 @@
-import './index.css';
+import './App.scss';
 import { ReactComponent as BellIcon } from './icons/bell.svg';
 import { ReactComponent as MessengerIcon } from './icons/messenger.svg';
 import { ReactComponent as CaretIcon } from './icons/caret.svg';
@@ -17,7 +17,6 @@ function App() {
         <NavItem icon={<PlusIcon />} />
         <NavItem icon={<BellIcon />} />
         <NavItem icon={<MessengerIcon />} />
-
         <NavItem icon={<CaretIcon />}>
           <DropdownMenu/>
         </NavItem>
